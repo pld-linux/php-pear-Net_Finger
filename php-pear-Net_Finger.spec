@@ -1,8 +1,9 @@
 %include	/usr/lib/rpm/macros.php
-%define         _class          Net
-%define         _subclass       Finger
+%define		_class		Net
+%define		_subclass	Finger
 %define		_status		stable
 %define		_pearname	%{_class}_%{_subclass}
+
 Summary:	%{_pearname} - querying finger servers
 Summary(pl):	%{_pearname} - odpytywanie serwerów fingera
 Name:		php-pear-%{_pearname}
