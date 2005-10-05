@@ -8,7 +8,7 @@ Summary:	%{_pearname} - querying finger servers
 Summary(pl):	%{_pearname} - odpytywanie serwerów fingera
 Name:		php-pear-%{_pearname}
 Version:	1.0.0
-Release:	2.2
+Release:	3
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 # Source0-md5:	cffe5878aa31a24b04963bbd7fe3db02
