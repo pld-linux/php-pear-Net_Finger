@@ -14,6 +14,7 @@ Group:		Development/Languages/PHP
 # Source0-md5:	cffe5878aa31a24b04963bbd7fe3db02
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
 URL:		http://pear.php.net/package/Net_Finger/
+BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 Requires:	php-pear
 Requires:	php-pear-Net_Socket
