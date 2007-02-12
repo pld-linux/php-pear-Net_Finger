@@ -5,7 +5,7 @@
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - querying finger servers
-Summary(pl):	%{_pearname} - odpytywanie serwerów fingera
+Summary(pl.UTF-8):   %{_pearname} - odpytywanie serwerÃ³w fingera
 Name:		php-pear-%{_pearname}
 Version:	1.0.0
 Release:	4
@@ -28,8 +28,8 @@ Servers.
 
 In PEAR status of this package is: %{_status}.
 
-%description -l pl
-Klasa PEAR::Net_Finger dostarcza narzêdzi do odpytywania serwerów
+%description -l pl.UTF-8
+Klasa PEAR::Net_Finger dostarcza narzÄ™dzi do odpytywania serwerÃ³w
 fingera.
 
 Ta klasa ma w PEAR status: %{_status}.
