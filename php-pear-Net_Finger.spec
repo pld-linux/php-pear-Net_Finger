@@ -5,7 +5,7 @@
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - querying finger servers
-Summary(pl.UTF-8):   %{_pearname} - odpytywanie serwerów fingera
+Summary(pl.UTF-8):	%{_pearname} - odpytywanie serwerów fingera
 Name:		php-pear-%{_pearname}
 Version:	1.0.0
 Release:	4
