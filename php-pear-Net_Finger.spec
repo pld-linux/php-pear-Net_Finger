@@ -7,18 +7,19 @@
 Summary:	%{_pearname} - querying finger servers
 Summary(pl.UTF-8):	%{_pearname} - odpytywanie serwerów fingera
 Name:		php-pear-%{_pearname}
-Version:	1.0.0
-Release:	4
+Version:	1.0.1
+Release:	1
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	cffe5878aa31a24b04963bbd7fe3db02
+# Source0-md5:	a6c1783516dca3c450ee19fbeb29bb4d
 URL:		http://pear.php.net/package/Net_Finger/
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 BuildRequires:	rpmbuild(macros) >= 1.300
 Requires:	php-pear
 Requires:	php-pear-Net_Socket
+Requires:	php-pear-PEAR-core >= 1:1.4.0
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
